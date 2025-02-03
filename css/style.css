@@ -82,6 +82,18 @@ html {
   transform: translateY(0);
 }
 
+.navbar-nav .nav-item .nav-link {
+  color: black !important; /* Ensures default text color */
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #0da9b4 !important; /* Changes text color on hover */
+  background-color: rgba(255, 255, 255, 0.2); /* Adds a subtle background */
+  border-radius: 5px; /* Rounded corners */
+  padding: 5px 15px; /* Adds spacing */
+}
+
 @media (min-width: 1200px) {
   .container {
     max-width: 1240px;
