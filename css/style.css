@@ -103,9 +103,17 @@ html {
   height: 100%;
 }
 
+.hero_head {
+  padding-top: 10px !important ;
+}
+
 @media (min-width: 667px) {
+  .hero_head {
+    padding-top: 60px !important ;
+  }
+
   .hero_text {
-    font-size: 46px !important ;
+    font-size: 42px !important ;
   }
   .cover {
     width: 100%;
